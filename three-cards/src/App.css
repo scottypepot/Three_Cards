@@ -1,0 +1,66 @@
+/* App.css */
+
+/* Ensure the entire page uses full height and centers content */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+/* Main container styling */
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Title styling */
+h1 {
+  font-size: 2em;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Card display container styling */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Card image styling */
+.card-image {
+  width: 100px;
+  height: 140px;
+  object-fit: cover;
+}
